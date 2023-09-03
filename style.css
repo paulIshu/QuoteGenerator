@@ -13,6 +13,7 @@
  }
 
  .quote-Box {
+   
      background: white;
      width: 700px;
      position: absolute;
@@ -100,6 +101,7 @@
 
  /*-----save button ----*/
 .button-7 {
+
   background-color: #0095ff;
   border: 1px solid transparent;
   border-radius: 3px;
@@ -137,4 +139,26 @@
 .button-7:active {
   background-color: #0064bd;
   box-shadow: none;
+}
+
+/*--------clear button-------*/
+ul > li{
+   padding: 0.5rem;
+   list-style: none;
+   margin: 10px;
+   border: 1px solid #0064bd;
+   border-radius: 1rem;
+}
+
+li:hover{
+   box-shadow: 1px 1px 1px 1px #0064bd;
+}
+.clear{
+   margin-top: 10px;
+   padding: 0.4rem;
+   border-radius: 5%;
+   cursor: pointer;
+}
+.clear:hover{
+   box-shadow: 4px 4px grey;
 }
