@@ -13,6 +13,7 @@
  }
 
  .quote-Box {
+   
      background: white;
      width: 700px;
      position: absolute;
@@ -97,3 +98,68 @@
     color: #333;
     
  }
+
+ /*-----save button ----*/
+.button-7 {
+
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+/*--------clear button-------*/
+ul > li{
+   padding: 0.5rem;
+   list-style: none;
+   margin: 10px;
+   border: 1px solid #0064bd;
+   border-radius: 1rem;
+}
+
+li:hover{
+   box-shadow: 1px 1px 1px 1px #0064bd;
+}
+.clear{
+   margin-top: 10px;
+   padding: 0.4rem;
+   border-radius: 5%;
+   cursor: pointer;
+}
+.clear:hover{
+   box-shadow: 4px 4px grey;
+}
+
